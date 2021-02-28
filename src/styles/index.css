@@ -1,0 +1,216 @@
+.application-main {
+    background: linear-gradient(var(--secondary), var(--blue));
+}
+
+.overlay-background {
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/background-index.png");
+    background-size: cover;
+}
+
+.search-form {
+    width: 235px;
+    margin-left: 7rem;
+    display: flex;
+}
+
+.input-search-block {
+    width: 100%;
+    display: flex;
+    border-radius: 0.5rem;
+    background: #262C41;
+}
+
+.input-search {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: 0;
+    background: transparent;
+    color: var(--white);
+}
+
+.btn-sign-in {
+    margin-left: 7rem !important;
+    margin-right: 2.5rem;
+}
+
+.btn-sign-up {
+    padding: 0.5rem;
+    border: 1px solid var(--white);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: var(--white);
+    transition: all 0.2s ease-out;
+}
+
+.btn-sign-up:hover,
+.btn-sign-up:focus {
+    border: 1px solid transparent;
+    background: var(--white);
+    color: var(--light-blue);
+}
+
+.main-block-theme {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.marketing-block {
+    width: 30%;
+    margin-bottom: 8rem;
+    margin-left: 10rem;
+    display:flex;
+    flex-direction: column;
+}
+
+.title-marketing-block {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.btn-marketing-block {
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.btn-sign-in-marketing {
+    padding: 1rem;
+    border: 1px solid var(--light-blue);
+    border-radius: 0.765rem;
+    text-decoration: none;
+    background: var(--light-blue);
+    color: var(--white);
+    transition: all 0.2s ease-out;
+}
+
+.btn-sign-in-marketing:hover,
+.btn-sign-in-marketing:focus {
+    border: 1px solid var(--white);
+    background: var(--white);
+    color: var(--light-blue);
+    box-shadow: 0 0 10px var(--white);
+    transform: scale(1.1);
+}
+
+.btn-premium-marketing {
+    padding: 1rem 2.5rem;
+    border: 2px solid var(--white);
+    border-radius: 0.765rem;
+    text-decoration: none;
+    color: var(--white);
+    background: transparent;
+    transition: all 0.2s ease-out;
+}
+
+.btn-premium-marketing:hover,
+.btn-premium-marketing:focus {
+    border: 2px solid var(--primary);
+    background: var(--primary);
+    transform: scale(1.1);
+}
+
+.image-code-things {
+    width: 40%;
+    margin-right: 7rem;
+    margin-bottom: 23rem;
+}
+
+.wave-transition-main {
+    width: 100%;
+    position: absolute;
+    bottom: -3px;
+    display: flex;
+    transform: rotateX(180deg);
+}
+
+.second-application {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--white);
+}
+
+.card-block {
+    height: 60%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    transform: scale(0);
+    opacity: 0;
+}
+
+.card-block:nth-child(1) {
+    margin-bottom: 20rem;
+}
+
+.card-block:nth-child(3) {
+    margin-top: 20rem;
+}
+
+.activate {
+    transform: scale(1);
+    opacity: 1;
+    transition: all 0.5s ease-out;
+}
+
+.title-card {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.image-card-block {
+    margin: 0 auto;
+}
+
+.text-card-block {
+    width: 70%;
+}
+
+.text-card {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1440px) {
+    .search-form {
+        margin-left: 2rem;
+    }
+
+    .btn-sign-in {
+        margin-left: 5rem !important;
+    }
+
+    .marketing-block {
+        width: 40%;
+        margin-bottom: 8rem;
+        margin-left: 4rem;
+    }
+
+    .title-marketing-block {
+        margin-left: 3rem;
+        font-size: 2.9rem;
+    }
+
+    .title-card {
+        font-size: 1.7rem;
+    }
+
+    .text-card {
+        font-size: 1.3rem;
+    }
+}

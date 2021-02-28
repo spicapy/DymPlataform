@@ -1,0 +1,14 @@
+{
+    "name": "spica/dym",
+    "description": "Programming study plataform",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme Spica Luiz",
+            "email": "Guilhermespicaluiz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
